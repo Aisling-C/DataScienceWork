@@ -1,4 +1,4 @@
-def Plot_PR(Model, X_train, y_train, X_test, y_test, auc, precision_recall_curve, np, plt, figsz):
+def Plot_PR(Model, X_train, y_train, X_test, y_test, title, auc, precision_recall_curve, np, plt, figsz):
     np.seterr(divide='ignore', invalid='ignore')
 
     plt.subplots(figsize=figsz)
@@ -15,6 +15,7 @@ def Plot_PR(Model, X_train, y_train, X_test, y_test, auc, precision_recall_curve
     plt.scatter(recall, precision, marker='.', color='red', label='Train', s=10)
     plt.scatter(recall[ix], precision[ix], marker='o', color='darkred', label='Best Train', s=100)
     auc_train = round(auc(recall, precision), 3)
+    prob=thresholds[ix]
 
     # Print Statement
     print('Best Train Threshold=%f, F-Score=%.3f' % (thresholds[ix], fscore[ix]))
@@ -38,4 +39,7 @@ def Plot_PR(Model, X_train, y_train, X_test, y_test, auc, precision_recall_curve
     plt.ylabel('Precision')
     plt.title('Precision Recall Curve')
     plt.legend()
+    plt.title(title)
     plt.show()
+
+    return prob
