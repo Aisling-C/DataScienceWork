@@ -1,56 +1,39 @@
 CapstoneOne_PredictingSepsis
 ==============================
 
-This project determines the likelihood of an ICU patient developing sepsis
+This project classifies an ICU patient as having sepsis or soon to have sepsis. 
+Data from PhysioNet Computing in Cardiolgy Challenge 2019: https://physionet.org/content/challenge-2019/1.0.0/
 
 Project Organization
 ------------
-
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
+    ├── data		   <- Note: Not available on github
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── notebooks          <- Jupyter Notebooks containing all code
+    │   ├── DataWrangling  <- Data loading, cleaning
+    │   ├── EDA            <- Exploratory data analysis
+    │   ├── Preprocessing  <- Preprocessing
+    │   └── Modeling       <- Model creation & metrics 
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── reports             <- Readable Reports
+    │   ├── Final Report    <- Final report, problem identification through results & next steps
+    │   ├── Model Metrics   <- Final model report
+    │   ├── PandasProfiling <- Pandas profiling report on raw data
+    │   └── ProjectProposal <- Initial project proposal
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
+    │   ├── data           
+    │   ├── CreateJupyterNotebookHeadings.py    <- Create custom Jupyter Notebook Headings
+    │   ├── Custom_Func.py                      <- Determine percentage of positive & negative instances in a data set
+    │   ├── Elapsed_Time.py                     <- Determine time elapsed from start to end of a code block
+    │   ├── PlotFeatureImportance.py            <- Code to plot feature importance of tree based models
+    │   ├── PlotPrecisionRecall.py              <- Code to plot precision & recall curves for test & train data
+    │   └── time_elapsed.py                     <- Determine time elapsed from start to end of a code block
+ 
 
 --------
 
