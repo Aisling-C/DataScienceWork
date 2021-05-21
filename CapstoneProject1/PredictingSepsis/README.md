@@ -18,13 +18,14 @@ Project Organization
     │   ├── Preprocessing  <- Preprocessing
     │   └── Modeling       <- Model creation & metrics 
     │
-    ├── reports             <- Readable Reports
-    │   ├── Final Report    <- Final report, problem identification through results & next steps
-    │   ├── Model Metrics   <- Final model report
-    │   ├── PandasProfiling <- Pandas profiling report on raw data
-    │   └── ProjectProposal <- Initial project proposal
+    ├── reports             			<- Readable Reports
+    │   ├── CapstoneOne_FinalSlides_Sepsis      <- Final Presentation on results
+    │   ├── Final Report    			<- Final report, problem identification through results & next steps
+    │   ├── Model Metrics   			<- Final model report
+    │   ├── PandasProfiling 			<- Pandas profiling report on raw data
+    │   └── ProjectProposal 			<- Initial project proposal
     │
-    ├── src                <- Source code for use in this project.
+    ├── src                			<- Source code for use in this project.
     │   │
     │   ├── data           
     │   ├── CreateJupyterNotebookHeadings.py    <- Create custom Jupyter Notebook Headings
