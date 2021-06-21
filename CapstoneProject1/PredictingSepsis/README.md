@@ -12,9 +12,6 @@ Project Organization
     │   ├── processed     	<- The final, canonical data sets for modeling.
     │   └── raw            	<- The original, immutable data dump.
     │
-    ├── models         
-    │   └── finalized_sepsis_model  <- Final Model for predicting Sepsis
-    │
     ├── notebooks          	<- Jupyter Notebooks containing all code
     │   ├── 1. DataWrangling  	<- Data loading, cleaning
     │   ├── 2. EDA            	<- Exploratory data analysis
