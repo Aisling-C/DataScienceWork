@@ -7,6 +7,12 @@ You can view a Tabelau dashboard of the project here: https://public.tableau.com
 Project Organization
 ------------
     ├── README.md         		<- The top-level README for developers using this project.
+    │
+    ├── reports             		<- Readable Reports **Start Here**
+    │   ├── FinalPresentation		<- Final Presentation on results
+    │   ├── Final Report    		<- Final report, problem identification through results & next steps
+    │   ├── Model Metrics   		<- Final model report
+    │   └── ProjectProposal 		<- Initial project proposal
     ├── data		  		<- Note: Not available on github
     │   ├── external       		<- Data from external sources- namely, a US counties geography file
     │   ├── interim       		<- Intermediate data that has been transformed.
@@ -26,11 +32,6 @@ Project Organization
     ├── references             		<- External Documentation
     │   └── census_api-guide       	<- How to make calls to the US Census API
     │
-    ├── reports             		<- Readable Reports
-    │   ├── FinalPresentation		<- Final Presentation on results
-    │   ├── Final Report    		<- Final report, problem identification through results & next steps
-    │   ├── Model Metrics   		<- Final model report
-    │   └── ProjectProposal 		<- Initial project proposal
     │
     ├── src                		<- Source code for use in this project.
     │   │
