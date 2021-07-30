@@ -2,27 +2,30 @@ CapstoneTwo_DiabetesPrevalence
 ==============================
 
 July 2021 
+
 Springboard School of Data
-Author: Aisling Casey
-Mentor: Tommy Blanchard 
 
-Overview: This project uses demographic data from the US Census to predict changes in diabetes prevalence values at the US county level. 
+**Author**: Aisling Casey
 
-You can view a Tabelau dashboard of the project here: https://public.tableau.com/app/profile/aisling.casey/viz/Diabetes_Prevalence/USDiabetesPrevelance2004-2017 
+**Mentor**: Tommy Blanchard 
 
-To get oriented with the project, first review the project proposal and other reports.
+**Overview**: This project uses demographic data from the US Census to predict changes in diabetes prevalence values at the US county level.  
+
+**Start Here**: To get oriented with the project, first review the project proposal and other reports.
+
+View the Tabelau dashboard of the project [here.](https://public.tableau.com/app/profile/aisling.casey/viz/Diabetes_Prevalence/USDiabetesPrevelance2004-2017)
 
 Project Organization
 ------------
-    ├── README.md         		<- The top-level README for this project.
+    ├── README.md         	<- The top-level README for this project.
     │
-    ├── reports             		<- Readable Reports (Start Here)
-    │   ├── ProjectProposal 		<- Initial project proposal
-    │   ├── FinalPresentation		<- Final Presentation on results
+    ├── reports             	<- Readable Reports (Start Here)
+    │   ├── ProjectProposal 	<- Initial project proposal
+    │   ├── FinalPresentation	<- Final Presentation on results
     │   ├── FinalReport    		<- Final report, problem identification through results & next steps
     │   └── ModelMetrics   		<- Final model report
     │
-    ├── data		  		<- Note: Not available on github
+    ├── data		  	<- Note: Not available on github
     │   ├── external       		<- Data from external sources- namely, a US counties geography file
     │   ├── interim       		<- Intermediate data that has been transformed.
     │   ├── processed     		<- The final, canonical data sets for modeling.
@@ -33,10 +36,10 @@ Project Organization
     │   └── best_model_LSTM_4           <- Final, best performing LSTM network model in hdf5 file
     │
     ├── notebooks          		<- Jupyter Notebooks containing all code
-    │   ├── 1. Data Wrangling  		 <- US Census API Calls, saving data to local drive
-    │   ├── 2. Data Cleaning		 <- Merging data tables
+    │   ├── 1. Data Wrangling  		<- US Census API Calls, saving data to local drive
+    │   ├── 2. Data Cleaning		<- Merging data tables
     │   ├── 3. Exploratory Data Analysis <- Exploring relationship between variables
-    │   └── 4. Modeling       		 <- Model creation & evaluation
+    │   └── 4. Modeling       		<- Model creation & evaluation
     │
     ├── references             		<- External Documentation
     │   └── census_api-guide       	<- How to make calls to the US Census API
@@ -51,8 +54,8 @@ Project Organization
     │   ├── code_flow       		<- Scripts for reducing boilerplate 
     │   │   └── CreateJupyterNotebookHeadings.py
     │   │
-    │   ├── models         		<- Script to prepare data for modeling
-    │   │   └── LSTM_Model		<- Functions for reshaping data, test/train splits for LSTM Model
+    │   └── models         		<- Script to prepare data for modeling
+    │       └── LSTM_Model		<- Functions for reshaping data, test/train splits for LSTM Model
     │
     ├── requirements1                	<- Packages to run notebooks 1-3. Python 3.9.5
     └── requirements2                	<- Packages to run notebook 4. Python 3.6.13. 
