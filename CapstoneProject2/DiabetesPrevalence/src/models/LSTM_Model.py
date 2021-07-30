@@ -10,10 +10,10 @@ def series_to_supervised(df, dep_var, n_in, concat):
     With user-specified sequence length
 
     Arguments:
-    dep_var: Name of the dependent variable
-    df: Sequence of observations as a list or NumPy array.
-    n_in: Number of lag observations as input (X).
-    dropnan: Boolean whether or not to drop rows with NaN values.
+    df: diabetes dataframe
+    dep_var: dependent variable ('diabetes_%', in this case)
+    n_in: Number of lag observations
+    concat: pandas' concat function
 
     Returns:
     Pandas dfFrame of series framed for supervised learning.
@@ -47,6 +47,20 @@ def series_to_supervised(df, dep_var, n_in, concat):
     return agg
 
 def test_train_split(df, df_copy, n, years, np):
+    """
+    Apply test/train split on diabetes dataframe for LSTM modeling
+
+    Arguments:
+    df: diabetes dataframe after being wrapped into sequences
+    (i.e. after series_to_supervised has been applied)
+    df_copy: original diabetes dataframe NOT wrapped into seqences
+    n:  Number of lag observations
+    years: years series, not min/max scaled (i.e. 2004, 2005, etc)
+    np: numpy library alias
+
+    Returns:
+    4 numpy arrays: X_train, y_train, X_test, y_test
+    """
     Y = df_copy[df_copy.years_since_2006 > years[(n + 1)]][['diabetes_%', 'state_county_fips', 'years_since_2006']]
     X = df
 

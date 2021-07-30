@@ -1,7 +1,12 @@
 CapstoneOne_PredictingSepsis
 ==============================
 
-This project classifies if an ICU patient will develop Sepsis or not. 
+June 2021 
+Springboard School of Data
+Author: Aisling Casey
+Mentor: Tommy Blanchard 
+
+Objective: This project classifies if an ICU patient will develop Sepsis or not. 
 Data from PhysioNet Computing in Cardiolgy Challenge 2019: https://physionet.org/content/challenge-2019/1.0.0/
 
 Project Organization

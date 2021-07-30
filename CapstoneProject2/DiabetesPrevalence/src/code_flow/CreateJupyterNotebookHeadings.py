@@ -1,5 +1,5 @@
 def jupyternotebookheadings1(list1):
-    #Make Headings
+    #Make Headings for Jupyter Notebook
     #Pass List of Names
     k=1
     for i in list1:
@@ -15,7 +15,7 @@ def jupyternotebookheadings1(list1):
         k=k+1
 
 def jupyternotebookheadings2(list1,level):
-    #Make Subheadings
+    #Make Subheadings for Jupyter Notebook
     #Pass list of names
     #Pass level (e.g. 1, 2 or 3)
     p=str(level)

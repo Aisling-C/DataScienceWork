@@ -1,18 +1,27 @@
 CapstoneTwo_DiabetesPrevalence
 ==============================
 
-This project uses demographic data from the US Census to predict changes in diabetes prevalence values at the US county level. 
+July 2021 
+Springboard School of Data
+Author: Aisling Casey
+Mentor: Tommy Blanchard 
+
+Overview: This project uses demographic data from the US Census to predict changes in diabetes prevalence values at the US county level. 
+
 You can view a Tabelau dashboard of the project here: https://public.tableau.com/app/profile/aisling.casey/viz/Diabetes_Prevalence/USDiabetesPrevelance2004-2017 
+
+To get oriented with the project, first review the project proposal and other reports.
 
 Project Organization
 ------------
-    ├── README.md         		<- The top-level README for developers using this project.
+    ├── README.md         		<- The top-level README for this project.
     │
-    ├── reports             		<- Readable Reports **Start Here**
+    ├── reports             		<- Readable Reports (Start Here)
+    │   ├── ProjectProposal 		<- Initial project proposal
     │   ├── FinalPresentation		<- Final Presentation on results
-    │   ├── Final Report    		<- Final report, problem identification through results & next steps
-    │   ├── Model Metrics   		<- Final model report
-    │   └── ProjectProposal 		<- Initial project proposal
+    │   ├── FinalReport    		<- Final report, problem identification through results & next steps
+    │   └── ModelMetrics   		<- Final model report
+    │
     ├── data		  		<- Note: Not available on github
     │   ├── external       		<- Data from external sources- namely, a US counties geography file
     │   ├── interim       		<- Intermediate data that has been transformed.
@@ -32,7 +41,6 @@ Project Organization
     ├── references             		<- External Documentation
     │   └── census_api-guide       	<- How to make calls to the US Census API
     │
-    │
     ├── src                		<- Source code for use in this project.
     │   │
     │   ├── data           	 	<- Scripts to download data
@@ -40,16 +48,16 @@ Project Organization
     │   │   ├── ACS_variable_list	<- List of ACS variable names and shorthands
     │   │   └── PEP_API			<- Downloading PEP Population Data from Census API
     │   │
-    │   ├── code_flow       		<- Scripts for streamlining boilerplate 
+    │   ├── code_flow       		<- Scripts for reducing boilerplate 
     │   │   └── CreateJupyterNotebookHeadings.py
     │   │
     │   ├── models         		<- Script to prepare data for modeling
     │   │   └── LSTM_Model		<- Functions for reshaping data, test/train splits for LSTM Model
     │
     ├── requirements1                	<- Packages to run notebooks 1-3. Python 3.9.5
-    ├── requirements2                	<- Packages to run notebook 4. Python 3.6.13. 
-					   Needed to downgrade Python and a few other
-					   libraries to play nice with tensorflow 1.14.0
+    └── requirements2                	<- Packages to run notebook 4. Python 3.6.13. 
+					   	Needed to downgrade Python and a few other
+					   	libraries to play nice with tensorflow 1.14.0
 
 	
 --------
