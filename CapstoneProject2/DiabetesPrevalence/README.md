@@ -1,9 +1,7 @@
 CapstoneTwo_DiabetesPrevalence
 ==============================
 
-July 2021 
-
-Springboard School of Data
+Springboard School of Data - July 2021
 
 **Author**: Aisling Casey
 
@@ -11,7 +9,7 @@ Springboard School of Data
 
 **Overview**: This project uses demographic data from the US Census to predict changes in diabetes prevalence values at the US county level.  
 
-**Start Here**: To get oriented with the project, first review the project proposal and other reports.
+**Start Here**: To get oriented with the project, first review the project proposal and other reports [here.](https://github.com/Aisling-C/Springboard/tree/main/CapstoneProject2/DiabetesPrevalence/reports)
 
 View the Tabelau dashboard of the project [here.](https://public.tableau.com/app/profile/aisling.casey/viz/Diabetes_Prevalence/USDiabetesPrevelance2004-2017)
 
@@ -20,10 +18,10 @@ Project Organization
     ├── README.md         	<- The top-level README for this project.
     │
     ├── reports             	<- Readable Reports (Start Here)
-    │   ├── ProjectProposal 	<- Initial project proposal
-    │   ├── FinalPresentation	<- Final Presentation on results
-    │   ├── FinalReport    		<- Final report, problem identification through results & next steps
-    │   └── ModelMetrics   		<- Final model report
+    │   ├── 1. ProjectProposal 	<- Initial project proposal
+    │   ├── 2. FinalPresentation	<- Final Presentation on results
+    │   ├── 3. FinalReport    		<- Final report, problem identification through results & next steps
+    │   └── 4. ModelMetrics   		<- Final model report
     │
     ├── data		  	<- Note: Not available on github
     │   ├── external       		<- Data from external sources- namely, a US counties geography file
