@@ -1,13 +1,17 @@
 CapstoneOne_PredictingSepsis
 ==============================
 
-June 2021 
-Springboard School of Data
-Author: Aisling Casey
-Mentor: Tommy Blanchard 
+Springboard School of Data - June 2021
 
-Objective: This project classifies if an ICU patient will develop Sepsis or not. 
+**Author**: Aisling Casey
+
+**Mentor**: Tommy Blanchard 
+
+**Overview**:  This project classifies if an ICU patient will develop Sepsis or not. 
 Data from PhysioNet Computing in Cardiolgy Challenge 2019: https://physionet.org/content/challenge-2019/1.0.0/
+
+**Start Here**: To get oriented with the project, first review the project proposal and other reports [here.](https://github.com/Aisling-C/Springboard/tree/main/CapstoneProject1/PredictingSepsis/reports)
+
 
 Project Organization
 ------------
@@ -25,11 +29,11 @@ Project Organization
     │   └── 4.2 Modeling       	<- Model creation & metrics - version 2
     │
     ├── reports             			<- Readable Reports
-    │   ├── CapstoneOne_FinalSlides_Sepsis      <- Final Presentation on results
-    │   ├── Final Report    			<- Final report, problem identification through results & next steps
-    │   ├── Model Metrics   			<- Final model report
-    │   ├── PandasProfiling 			<- Pandas profiling report on raw data
-    │   └── ProjectProposal 			<- Initial project proposal
+    │   ├── 1. ProjectProposal 			<- Initial project proposal
+    │   ├── 2. FinalSlides_Sepsis      		<- Final Presentation on results
+    │   ├── 3. Final Report    			<- Final report, problem identification through results & next steps
+    │   ├── 4. Model Metrics   			<- Final model report
+    │   └── PandasProfiling 			<- Pandas profiling report on raw data
     │
     ├── src                			<- Source code for use in this project.
     │   │
@@ -41,6 +45,8 @@ Project Organization
     │   ├── PlotFeatureImportance.py            <- Code to plot feature importance of tree based models
     │   ├── plotPrecisionRecall_.py             <- Code to plot precision & recall curves for test & train data
     │   └── time_elapsed.py                     <- Determine time elapsed from start to end of a code block
+    │
+    └── requirements.txt  			<- External library requirements; Python  3.9.5
  
 
 --------
