@@ -7,11 +7,17 @@ Springboard School of Data - July 2021
 
 **Mentor**: Tommy Blanchard 
 
-**Overview**: This project uses demographic data from the US Census to predict changes in diabetes prevalence values at the US county level.  
+**Overview**: This project uses demographic data to predict changes in diabetes prevalence values at the US county level.
+
+**Data_Sources**: 
+
+*[American Community Survey](https://www.census.gov/programs-surveys/acs) - US Census Bureau
+*[US Diabetes Surveillance System](https://gis.cdc.gov/grasp/diabetes/diabetesatlas.html#) - CDC 
+		
 
 **Start Here**: To get oriented with the project, first review the project proposal and other reports [here.](https://github.com/Aisling-C/Springboard/tree/main/CapstoneProject2/DiabetesPrevalence/reports)
 
-View the Tabelau dashboard of the project [here.](https://public.tableau.com/app/profile/aisling.casey/viz/Diabetes_Prevalence/USDiabetesPrevelance2004-2017)
+View an accompanying Tableau dashboard that explores Diabetes prevalence overtime, geographically, and compared to demographic data [here.](https://public.tableau.com/app/profile/aisling.casey/viz/Diabetes_Prevalence/USDiabetesPrevelance2004-2017)
 
 Project Organization
 ------------
