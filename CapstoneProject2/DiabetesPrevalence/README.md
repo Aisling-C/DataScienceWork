@@ -11,8 +11,9 @@ Springboard School of Data - July 2021
 
 **Data_Sources**: 
 
-*[American Community Survey](https://www.census.gov/programs-surveys/acs) - US Census Bureau
-*[US Diabetes Surveillance System](https://gis.cdc.gov/grasp/diabetes/diabetesatlas.html#) - CDC 
+* [American Community Survey](https://www.census.gov/programs-surveys/acs) - US Census Bureau
+
+* [US Diabetes Surveillance System](https://gis.cdc.gov/grasp/diabetes/diabetesatlas.html#) - CDC 
 		
 
 **Start Here**: To get oriented with the project, first review the project proposal and other reports [here.](https://github.com/Aisling-C/Springboard/tree/main/CapstoneProject2/DiabetesPrevalence/reports)
